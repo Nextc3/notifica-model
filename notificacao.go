@@ -1,7 +1,8 @@
 package notifica_model
 
-type Notificacao struct {
+type Asset struct {
 	Id                  int    `json:"id"`
+	DocType             string `json:"docType"`
 	DataNascimento      string `json:"dataNascimento"`
 	Sexo                string `json:"sexo"`
 	Endereco            string `json:"endereco"`
